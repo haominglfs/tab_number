@@ -1,0 +1,10 @@
+{
+    "manifest_version":2,
+    "name":"tab_number",
+    "permissions":["tabs","http://*/","https://*/"],
+    "version":"2",
+    "background":{
+        "persistent":false,
+        "scripts":["js/update_tab.js"]
+    }
+}
